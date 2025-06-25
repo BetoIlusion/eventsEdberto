@@ -1,6 +1,8 @@
 
 NOMBRE: Edberto Ybanera Herrera
+
 Iniciacion:
+composer install
 php artisan migrate
 php artisan serve --host=[ipconfig]
 
@@ -50,6 +52,7 @@ https://bold-astronaut-377045.postman.co/workspace/My-Workspace~51d7d2ac-4eec-40
 + cancela evento correctamente
 + consulta eventos activos en rango de horario y fecha seleccionada(criterio
     planteado en el enfoque)
++ muestra reporte de ocupacion porcentual, tiempo; respecto a la fecha establecida
 
 
 CASOS LIMITES
