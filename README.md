@@ -3,8 +3,11 @@ NOMBRE: Edberto Ybanera Herrera
 
 Iniciacion:
 composer install
+
 php artisan migrate
+
 php artisan serve --host=[ipconfig]
+
 
 ENFOQUE:
  Está pensado para que cualquier centro de convenciones pueda insertar 
@@ -53,6 +56,21 @@ https://bold-astronaut-377045.postman.co/workspace/My-Workspace~51d7d2ac-4eec-40
 + consulta eventos activos en rango de horario y fecha seleccionada(criterio
     planteado en el enfoque)
 + muestra reporte de ocupacion porcentual, tiempo; respecto a la fecha establecida
+
+LAS INSTRUCCIONES ESTAN EN EL POSTMAN PERO AQUI TAMBIEN LOS VOY A ESCRIBIR:
+solo necesitas configurar sus credenciales de su base de datos en el .env : localhost/api
+INICIAR APIs:
+Room
++ crea sala : solo ejecutar SEND
++ all salas : solo ejecutar SEND
++ cambiar nombre : tiene su formato en el Body y ejecutar SEND
+
+Events
++ crear evento con sala : tiene su formato en el Body y ejecutar SEND
++ crear evento sin sala : tiene su formato en el Body y ejecutar SEND
++ eventos activos : tiene su formato en el Body y ejecutar SEND
++ cancelar evento : : tiene su formato en el Body y ejecutar SEND
++ reporteOcupacionPorcentual : tiene su formato en el Body y ejecutar SEND
 
 
 CASOS LIMITES
